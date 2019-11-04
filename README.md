@@ -1,15 +1,13 @@
-# @firebase/webchannel-wrapper
+# webchannel-wrapper
 
-_NOTE: This is specifically tailored for Firebase JS SDK usage, if you are not a member of the Firebase team, please avoid using this package_
-
-This is a wrapper of some Webchannel Features for the Firebase JS SDK.
+This is a wrapper of some Webchannel Features.
 
 ## Installation
 
 You can install this wrapper by running the following in your project:
 
 ```bash
-$ npm install @firebase/webchannel-wrapper
+$ npm install webchannel-wrapper
 ```
 
 ## Usage
