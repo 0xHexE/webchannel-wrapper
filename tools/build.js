@@ -39,7 +39,7 @@ const closureDefines = [
 
 // commonjs build
 closureBuilder.build({
-  name: 'firebase.webchannel.wrapper',
+  name: 'webchannel.wrapper',
   srcs: glob([resolve(__dirname, '../src/**/*.js')]),
   externs: [resolve(__dirname, '../externs/overrides.js')],
   out: 'dist/index.js',
@@ -60,7 +60,7 @@ closureBuilder.build({
 const filePath = `${tmpdir()}/index.js`;
 closureBuilder.build(
   {
-    name: 'firebase.webchannel.wrapper',
+    name: 'webchannel.wrapper',
     srcs: glob([resolve(__dirname, '../src/**/*.js')]),
     externs: [resolve(__dirname, '../externs/overrides.js')],
     out: filePath,
