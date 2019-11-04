@@ -19,7 +19,7 @@
  * Bring in closure-library dependencies
  */
 
-goog.provide('firebase.webchannel.wrapper');
+goog.provide('webchannel.wrapper');
 
 // goog.net.WebChannelTransport
 goog.require('goog.net.createWebChannelTransport');
@@ -88,3 +88,4 @@ module['exports'] = {
   'WebChannel': goog.net.WebChannel,
   'XhrIo': goog.net.XhrIo
 };
+

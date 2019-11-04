@@ -1,8 +1,8 @@
 {
-  "name": "@firebase/webchannel-wrapper",
-  "version": "0.2.29",
-  "description": "A wrapper of the webchannel packages from closure-library for use outside of a closure compiled application",
-  "author": "Firebase <firebase-support@google.com> (https://firebase.google.com/)",
+  "name": "webchannel-wrapper",
+  "version": "0.0.1",
+  "description": "A library for use webchannels outside of the closure compiler",
+  "author": "Omkar Yadav <httpsOmkar@gmail.com>",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "files": [
@@ -22,12 +22,11 @@
     "watch": "1.0.2"
   },
   "repository": {
-    "directory": "packages/webchannel-wrapper",
     "type": "git",
-    "url": "https://github.com/firebase/firebase-js-sdk.git"
+    "url": "https://github.com/httpsOmkar/webchannel-wrapper.git"
   },
   "typings": "src/index.d.ts",
   "bugs": {
-    "url": "https://github.com/firebase/firebase-js-sdk/issues"
+    "url": "https://github.com/httpsOmkar/webchannel-wrapper/issues"
   }
 }
