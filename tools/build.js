@@ -77,7 +77,10 @@ closureBuilder.build(
   async function() {
     const inputOptions = {
       input: filePath,
-      plugins: [sourcemaps(), commonjs()]
+      plugins: [
+          sourcemaps(),
+          commonjs(),
+      ]
     };
 
     const outputOptions = {
